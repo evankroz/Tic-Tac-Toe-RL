@@ -2,7 +2,7 @@
 
 ## Structure
 
-'''
+ ```
 /zsh
 ├── LICENSE
 ├── README.md
@@ -13,4 +13,4 @@
     ├── main.py
     ├── titacrand.py
     └── training.py
-'''
+```
