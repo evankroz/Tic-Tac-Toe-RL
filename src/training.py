@@ -1,5 +1,5 @@
 import numpy as np
-import main
+import src.main as main
 import gymnasium as gym
 
 
