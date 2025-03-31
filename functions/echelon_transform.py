@@ -1,9 +1,10 @@
 import numpy as np
 import sympy as sp
 
-
 #equations in the form (ax,by,cz,d) --> [1,2,3,4]
 #where ax+by+cz=d is the standard equation of a plane
+
+
 def two_plane_intersection(arr1, arr2):
 
     matrix = np.array([arr1[0:3], arr2[0:3]])
