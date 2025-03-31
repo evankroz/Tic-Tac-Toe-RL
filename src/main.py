@@ -78,6 +78,7 @@ class Play():
                     self.p1win += 1
                     print("Player 1 Wins")
                 else:
+                
                 #else player 2 wins
                     self.p2win += 1
                     print("Player 2 Wins")
@@ -146,9 +147,13 @@ if __name__ == "__main__":
     #plot = Plot(stats) 
 
     #plot.display()   
-
+    first_chance_win = (stats[0]/itrs)*100
+    sec_chance_win = (stats[1]/itrs)*100
+    
     print(check)
     print(stats)
+    print("P1 Win Percentage: {}%".format(round(first_chance_win)))
+    print("P2 Win Percentage: {}%".format(round(sec_chance_win)))
     print(f"Time Taken: {end-begin}")
     play.graph()
 
