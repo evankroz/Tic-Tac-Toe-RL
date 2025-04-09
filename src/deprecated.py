@@ -3,12 +3,7 @@
 import numpy as np
 import random
 import time
-#import matplotlib as mtp
 
-#TODO: Optimize state search
-#TODO: Implement matplotlib graphing to show results graphicaly
-#TODO: Sort into class functions
-#TODO: Optimize stuff
 
 
 def state(board):
