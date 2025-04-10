@@ -5,6 +5,7 @@ import matplotlib as mpt
 class Play():
     def __init__(self):
         self.board = np.zeros((3,3), dtype=int)
+        
         #print(self.board)
     def policy(self):
         pass

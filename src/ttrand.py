@@ -7,7 +7,7 @@ def checkState(board):
     col = 0
     row = 1
     diag = 2
-    #make this crap faster
+    #make this faster
     if all(i==1 for i in [board[0,0], board[1,1], board[2,2]]) or all(i==2 for i in [board[0,0], board[1,1], board[2,2]]):
         return True,diag
     if all(i==1 for i in [board[2,0], board[1,1], board[0,2]]) or all(i==2 for i in [board[2,0], board[1,1], board[0,2]]):
