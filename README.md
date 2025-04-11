@@ -5,11 +5,16 @@
  ```
 ├── LICENSE
 ├── README.md
+├── functions
+│   └── echelon_transform.py
 ├── requirements.txt
 ├── results
 └── src
-    ├── echelon_transform.py
+    ├── __pycache__
+    │   └── ttrand.cpython-313.pyc
+    ├── deprecated.py
     ├── main.py
-    ├── titacrand.py
-    └── training.py
+    ├── policies
+    ├── training.py
+    └── ttrand.py
 ```
