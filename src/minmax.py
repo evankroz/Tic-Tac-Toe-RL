@@ -167,7 +167,7 @@ def human_vs_minimax():
             if current_player == 1:
                 print("Agent (X) is thinking...")
                 lst = [0.05, 0.07, 0.09, 0.11, 0.13, 0.15]
-                for _ in tqdm(range(10)):
+                for _  in tqdm(range(10)):
                     time.sleep(choice(lst))
                 move = get_best_move(game.board, player=1)
                 print(f"Agnet  chooses position: {move[0]+1}, {move[1]+1}")
