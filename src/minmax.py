@@ -1,8 +1,8 @@
 from random import randrange, choice
 import numpy as np
 import matplotlib.pyplot as plt
-from tqdm import tqdm
-import time
+#from tqdm import tqdm
+#import time
 
 class TicTacToe:
     def __init__(self):
@@ -165,10 +165,10 @@ def human_vs_minimax():
             game.render()
             
             if current_player == 1:
-                print("Agent (X) is thinking...")
+                '''print("Agent (X) is thinking...")
                 lst = [0.05, 0.07, 0.09, 0.11, 0.13, 0.15]
                 for _  in tqdm(range(10)):
-                    time.sleep(choice(lst))
+                    time.sleep(choice(lst))'''
                 move = get_best_move(game.board, player=1)
                 print(f"Agnet  chooses position: {move[0]+1}, {move[1]+1}")
             else:
@@ -254,5 +254,6 @@ def rand_vs_minmax(num_games=100, show_games = False):
 if __name__ == "__main__":
     num_games = 10000
     print("Play against unbeatable Minimax AI")
-    human_vs_minimax()
-    #minmax_vs_minmax(num_games=num_games, show_games=True)
+    #human_vs_minimax()
+
+    minmax_vs_minmax(num_games=num_games, show_games=True)
